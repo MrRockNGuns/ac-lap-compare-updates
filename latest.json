@@ -1,6 +1,6 @@
 {
   "tag": "v0.1.3",
   "url": "https://github.com/MrRockNGuns/ac-lap-compare/releases/tag/v0.1.3",
-  "body": "Updater: manifiesto público + workflow al publicar Release. Buscar actualizaciones con estados claros.",
-  "published_at": "2026-10-27T23:17:00Z"
+  "body": "## Cambios\n- Updater: manifiesto público (`ac-lap-compare-updates`) en lugar de la API del repo privado\n- Botón «Buscar actualizaciones…» con estados claros (al día / update / offline)\n- Workflow que publica `latest.json` al crear un Release\n\n## Notas\n- Tras actualizar, no hace falta re-copiar sidecar salvo que toques esa carpeta en otro release.\n- Secret `UPDATES_REPO_TOKEN` requerido en el repo para que Actions empuje el manifiesto (si falta, actualizar `latest.json` a mano una vez).",
+  "published_at": "2026-10-27T23:18:50Z"
 }
