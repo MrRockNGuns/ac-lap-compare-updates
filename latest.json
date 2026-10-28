@@ -1,6 +1,8 @@
 {
-  "tag": "v0.1.4",
-  "url": "https://github.com/MrRockNGuns/ac-lap-compare/releases/tag/v0.1.4",
-  "body": "## Cambios\n- Splits de sector oficiales: se aprenden desde SHM `currentSectorIndex` al grabar self y se cachean en `Documents/ACLapCompare/sectors/<track>.json`\n- Compare usa ese cache (statusbar `sectores=oficial (cache)`); si no hay, sigue con tercios\n- CI: pytest + coverage ≥80% en `desktop/domain` (bloquea el PR)\n\n## Notas para probar en PC\n- **No hace falta re-copiar el sidecar** (este release no lo toca).\n- **No hace falta re-leer la pista/kn5.** Un `session.json` viejo sin campo `sector` no crea el cache; hace falta **una grabación nueva con SHM** (self) en ese circuito. Después, al abrir sesiones viejas del mismo track, Compare ya usa los splits oficiales.\n- Statusbar: `sectores=oficial (cache)` vs `tercios`.",
-  "published_at": "2026-10-28T15:49:42Z"
+  "tag": "v0.1.5",
+  "url": "https://github.com/MrRockNGuns/ac-lap-compare/releases/tag/v0.1.5",
+  "body": "## Cambios\n- Icono + splash al arrancar (tokens Cian/Coral)\n- Updater auto-aplicar .exe (desde v0.1.4/PR #32): este release **estrena el zip portable** vía workflow\n- VERSION 0.1.5\n\n## Notas\n- Primera vez: bajá el zip desde [ac-lap-compare-updates](https://github.com/MrRockNGuns/ac-lap-compare-updates/releases) cuando termine el workflow «Publish update manifest».\n- Sidecar: solo re-copiá si un release futuro lo menciona (este no toca sidecar de lógica).\n- Branch protection required CI: no disponible en repo privado free (hace falta Pro o público).",
+  "published_at": "2026-10-28T17:37:27Z",
+  "download_url": "https://github.com/MrRockNGuns/ac-lap-compare-updates/releases/download/v0.1.5/ACLapCompare-v0.1.5.zip",
+  "sha256": "f3c5e527b3e6910ed84511ef4dbcd783c4c15fd3a1cb9a7c3fd85c66ce5e46a9"
 }
