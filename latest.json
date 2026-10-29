@@ -1,8 +1,8 @@
 {
-  "tag": "v0.1.5",
-  "url": "https://github.com/MrRockNGuns/ac-lap-compare/releases/tag/v0.1.5",
-  "body": "## Cambios\n- Icono + splash al arrancar (tokens Cian/Coral)\n- Updater auto-aplicar .exe (desde v0.1.4/PR #32): este release **estrena el zip portable** vía workflow\n- VERSION 0.1.5\n\n## Notas\n- Primera vez: bajá el zip desde [ac-lap-compare-updates](https://github.com/MrRockNGuns/ac-lap-compare-updates/releases) cuando termine el workflow «Publish update manifest».\n- Sidecar: solo re-copiá si un release futuro lo menciona (este no toca sidecar de lógica).\n- Branch protection required CI: no disponible en repo privado free (hace falta Pro o público).",
-  "published_at": "2026-10-28T17:37:27Z",
-  "download_url": "https://github.com/MrRockNGuns/ac-lap-compare-updates/releases/download/v0.1.5/ACLapCompare-v0.1.5.zip",
-  "sha256": "f3c5e527b3e6910ed84511ef4dbcd783c4c15fd3a1cb9a7c3fd85c66ce5e46a9"
+  "tag": "v0.1.6",
+  "url": "https://github.com/MrRockNGuns/ac-lap-compare/releases/tag/v0.1.6",
+  "body": "## Cambios\n- License spike: trial 14d → forever Light (máx 10 marcas Ctrl+B) → Pro con `.lic` Ed25519 offline\n- Mint CLI (`tools/mint_license.py`); Instalar / Quitar licencia en Compare\n- PyInstaller recoge `cryptography` para el zip portable\n- VERSION 0.1.6 (PR #34)\n\n## Notas\n- SK de mint **no** va en el repo (`secrets/` o `AC_LAP_LICENSE_SK`)\n- Sidecar: este release **no** pide re-copia\n- Zip portable: workflow «Publish update manifest» sube a [ac-lap-compare-updates](https://github.com/MrRockNGuns/ac-lap-compare-updates/releases) al publicar\n\n## Probar\n1. Esperá el zip en updates repo\n2. `python tools/mint_license.py --days 30 --out test.lic` (con tu SK local)\n3. Instalar licencia… en Compare / soft-cap Light tras trial",
+  "published_at": "2026-10-29T12:59:14Z",
+  "download_url": "https://github.com/MrRockNGuns/ac-lap-compare-updates/releases/download/v0.1.6/ACLapCompare-v0.1.6.zip",
+  "sha256": "5a9b91ab3bead6ac91afefd1abbfacffa3ae11053ca5366f7c0838d778a85c1e"
 }
