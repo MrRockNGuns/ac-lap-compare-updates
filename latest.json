@@ -1,8 +1,8 @@
 {
-  "tag": "v0.1.6",
-  "url": "https://github.com/MrRockNGuns/ac-lap-compare/releases/tag/v0.1.6",
-  "body": "## Cambios\n- License spike: trial 14d → forever Light (máx 10 marcas Ctrl+B) → Pro con `.lic` Ed25519 offline\n- Mint CLI (`tools/mint_license.py`); Instalar / Quitar licencia en Compare\n- PyInstaller recoge `cryptography` para el zip portable\n- VERSION 0.1.6 (PR #34)\n\n## Notas\n- SK de mint **no** va en el repo (`secrets/` o `AC_LAP_LICENSE_SK`)\n- Sidecar: este release **no** pide re-copia\n- Zip portable: workflow «Publish update manifest» sube a [ac-lap-compare-updates](https://github.com/MrRockNGuns/ac-lap-compare-updates/releases) al publicar\n\n## Probar\n1. Esperá el zip en updates repo\n2. `python tools/mint_license.py --days 30 --out test.lic` (con tu SK local)\n3. Instalar licencia… en Compare / soft-cap Light tras trial",
-  "published_at": "2026-10-29T12:59:14Z",
-  "download_url": "https://github.com/MrRockNGuns/ac-lap-compare-updates/releases/download/v0.1.6/ACLapCompare-v0.1.6.zip",
-  "sha256": "5a9b91ab3bead6ac91afefd1abbfacffa3ae11053ca5366f7c0838d778a85c1e"
+  "tag": "v0.1.7",
+  "url": "https://github.com/MrRockNGuns/ac-lap-compare/releases/tag/v0.1.7",
+  "body": "## Cambios\n- Trial / Light / Pro visibles en título y panel lateral\n- Acceso directo Escritorio + Menú Inicio (icono); `CREATE_SHORTCUT.bat` en el zip\n- Zip portable también adjunto a **este** release (además de ac-lap-compare-updates)\n- Hotfix arranque frozen (PR #35) + UX licencia (PR #36)\n- VERSION 0.1.7\n\n## Notas\n- En **trial** las marcas Ctrl+B son ilimitadas; el tope 10 aplica en **Light**\n- Descomprimí → carpeta `ACLapCompare\\` → `ACLapCompare.exe`\n- SmartScreen: sin cert Authenticode OV/EV sigue el aviso de Windows (opcional vía secrets)\n\n## Probar\n1. Esperá el workflow «Publish update manifest» (~3 min)\n2. Bajá el zip desde este release o updates\n3. Confirmá título Trial (Nd) y shortcut al abrir",
+  "published_at": "2026-10-30T20:12:32Z",
+  "download_url": "https://github.com/MrRockNGuns/ac-lap-compare-updates/releases/download/v0.1.7/ACLapCompare-v0.1.7.zip",
+  "sha256": "1beaf404f7a42dbbd6d2c26fbfb059bccd2c9e014592ca4fa0402ed1a9486a16"
 }
