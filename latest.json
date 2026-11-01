@@ -1,8 +1,8 @@
 {
-  "tag": "v0.1.7",
-  "url": "https://github.com/MrRockNGuns/ac-lap-compare/releases/tag/v0.1.7",
-  "body": "## Cambios\n- Trial / Light / Pro visibles en título y panel lateral\n- Acceso directo Escritorio + Menú Inicio (icono); `CREATE_SHORTCUT.bat` en el zip\n- Zip portable también adjunto a **este** release (además de ac-lap-compare-updates)\n- Hotfix arranque frozen (PR #35) + UX licencia (PR #36)\n- VERSION 0.1.7\n\n## Notas\n- En **trial** las marcas Ctrl+B son ilimitadas; el tope 10 aplica en **Light**\n- Descomprimí → carpeta `ACLapCompare\\` → `ACLapCompare.exe`\n- SmartScreen: sin cert Authenticode OV/EV sigue el aviso de Windows (opcional vía secrets)\n\n## Probar\n1. Esperá el workflow «Publish update manifest» (~3 min)\n2. Bajá el zip desde este release o updates\n3. Confirmá título Trial (Nd) y shortcut al abrir",
-  "published_at": "2026-10-30T20:12:32Z",
-  "download_url": "https://github.com/MrRockNGuns/ac-lap-compare-updates/releases/download/v0.1.7/ACLapCompare-v0.1.7.zip",
-  "sha256": "1beaf404f7a42dbbd6d2c26fbfb059bccd2c9e014592ca4fa0402ed1a9486a16"
+  "tag": "v0.1.8",
+  "url": "https://github.com/MrRockNGuns/ac-lap-compare/releases/tag/v0.1.8",
+  "body": "## Cambios\n- Fix **WinError 87** al «Actualizar ahora» (flags CreateProcess incompatibles)\n- **Instalar sidecar…**: pide la carpeta de Assetto Corsa y copia el plugin a `apps\\python\\ACLapCompare` (también al primer arranque)\n- Guarda `Documents\\ACLapCompare\\ac_root.txt` para reusar la ruta (bordes de pista)\n- VERSION 0.1.8\n\n## Notas\n- Si venís de **0.1.7**, el auto-update falla con WinError 87: bajá este zip a mano **una vez**\n- Descomprimí → carpeta `ACLapCompare\\` → `ACLapCompare.exe`\n- Sidecar: botón «Instalar sidecar…» o copia manual de `sidecar\\ACLapCompare`\n\n## Probar\n1. Esperá el workflow «Publish update manifest» (~3–5 min)\n2. Zip en este release + updates; `latest.json` → v0.1.8\n3. Abrí Compare → diálogo/botón sidecar → elegí `assettocorsa`",
+  "published_at": "2026-11-01T00:08:20Z",
+  "download_url": "https://github.com/MrRockNGuns/ac-lap-compare-updates/releases/download/v0.1.8/ACLapCompare-v0.1.8.zip",
+  "sha256": "427b53abe3ffa25ef2fb3ea730ab9f5729e4072a1ef90dbb4ab21f3691af1c15"
 }
